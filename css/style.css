@@ -50,3 +50,63 @@ h1{
     font-size: 1.3rem;
     border: 2px solid orangered;
 }
+.card-title{
+    color: #df620f;
+}
+.gallery{
+    min-height: 100vh;
+    background:linear-gradient(rgba(114, 67, 202, 0.9),rgba(0,0,0,0.9)), url('../images/large-home-389271_640.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
+.row h3{
+    color: #ce0e4e;
+}
+.row p{
+    color: rgb(16, 84, 143);
+
+}
+.divider{
+    width: 80px;
+    height: 8px;
+    background-color: #df620f;
+    margin: 10px auto;
+}
+ .carosel{
+    min-height: 80vh;
+    background:linear-gradient(rgba(114, 67, 202, 0.9),rgba(0,0,0,0.9)), url('../images/large-home-389271_640.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 700px;
+    padding: 30px 50px;
+    
+ }
+ .card{
+    border: orangered solid;
+ }
+ .image-fluid{
+    max-width: 70%;
+    max-height: 800%;
+    margin: 20px 10px;
+ }
+ .btnn{
+    background-color: #df620f;
+    color: #58b4f2;
+    border-radius: 10px;
+    border: #f11adf 2px solid;
+    padding: 10px 40px;
+    margin: auto;
+
+ }
+ .btnn:hover{
+    background-color: transparent;
+    color: #58b4f2;
+    border-radius: 10px;
+ }
